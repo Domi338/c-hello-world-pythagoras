@@ -8,13 +8,8 @@
 class helloworld {
 public:
     char* sentence = "Hello World";
-    char* givesentence();
     float pythagoras(float a,float b);
 };
-
-char* helloworld::givesentence(){
-    return helloworld::sentence;
-}
 
 float helloworld::pythagoras(float a, float b){
     //some math here
